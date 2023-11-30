@@ -10,7 +10,7 @@ const Hero = () =>
                 <p className= "subtitle"> Chicago</p>
                 <p className="desc"> We are a family owned Mediterranean restaurant, 
                     focused on traditional recipes served with a modern twist.</p>
-                <Link to = "/booking"><button className= "reserve-btn">
+                <Link to = "/reservation"><button className= "reserve-btn">
                     Reserve a Table
                     </button></Link>
             </div>

@@ -311,3 +311,71 @@ footer {
   background-color: #fff; 
   color: #bca316;
 }
+/* styling for form */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-desc {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+}
+
+label {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.seperate {
+  display: grid;
+  gap: 10px;
+}
+
+.date-time {
+  grid-template-columns: 1fr 1fr;
+}
+
+.guests-occasion {
+  grid-template-columns: 1fr 1fr;
+}
+
+.seperate-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  background-color: #bca316;
+  color: #fff;
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: #bca316;
+}
+
