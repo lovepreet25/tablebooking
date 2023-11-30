@@ -155,7 +155,7 @@
 }
 
 /* css for footer section */
-/* Footer.css */
+
 
 footer {
   background-color: #333;
@@ -192,7 +192,7 @@ footer {
 }
 
 .footer-item:hover {
-  color: #ffd700; /* Change the color on hover */
+  color: #ffd700; 
 }
 
 /* Media query for responsiveness */
@@ -207,4 +207,107 @@ footer {
     flex: 1 0 100%;
     margin: 10px 0;
   }
+}
+
+/* Menu styling */
+
+.menu {
+  background-color: #f8f8f8;
+  padding: 50px;
+  text-align: center;
+
+}
+
+.menu-desc {
+  display: flex;
+  flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2em;
+	margin-bottom: 2em;
+}
+
+
+.menu-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.menu-btn {
+  background-color: #bca316;
+  color: #fff;
+  font-size: 2em;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-btn:hover {
+  background-color: #fff; 
+  color: #bca316;
+}
+.cards{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex:1;
+  flex-direction: column;
+  align-items: flex-start;
+	justify-content: center;
+  background-color: #EDEFEE;
+	border-radius: 16px;
+	gap: 2em;
+}
+.menu-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.specials {
+  text-align: left;
+}
+
+.item-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.item-price {
+  font-size: 1.2em;
+  color: #bca316;
+}
+
+.special-desc {
+  text-align: left;
+}
+
+.card-btn {
+  margin-top: 20px;
+  align-self: baseline;
+}
+
+.card-btn button {
+  background-color: #bca316;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-btn button:hover {
+  background-color: #fff; 
+  color: #bca316;
 }

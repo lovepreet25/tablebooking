@@ -3,12 +3,17 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Footer from './Components/Footer';
+import Menu from './Components/Menu';
+import { Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
     <Navbar/>
-    <Hero/>
+    <Routes>
+    <Route path="/" exact element={<Hero/>}></Route>
+    </Routes>
+    <Menu/>
     <Footer/>
     </>
   );
